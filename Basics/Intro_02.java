@@ -59,5 +59,7 @@ Key Features: Iski libraries bahut choti hoti hain taaki ye kam memory/RAM par c
 
 Logic: Aaj kal Android aur iOS ke aane ke baad iska use thoda kam ho gaya hai, lekin IoT (Internet of Things) devices me ye abhi bhi kaam aata hai.
 
+JRE jo hai wo JVM + interpreter ka use krke code ko line by line machine code me convert krta hai
+
 */
 }

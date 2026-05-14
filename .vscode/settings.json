@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "java": "cd $workspaceRoot && javac $fullFileName && java -cp . $(grep -oE 'package [^;]+' $fullFileName | sed 's/package //').$fileNameWithoutExt"
+    },
+    "code-runner.runInTerminal": true
+}
