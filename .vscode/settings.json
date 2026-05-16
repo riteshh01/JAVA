@@ -1,4 +1,6 @@
 {
+    // what is the use of this??
+    // so I have faced one problem that is whenever I'm trying to run my file through code runner it is failing, because it goes to the sub-folder and then run the file, so this the command to fix this problem
     "code-runner.executorMap": {
         "java": "cd $workspaceRoot && javac $fullFileName && java -cp . $(grep -oE 'package [^;]+' $fullFileName | sed 's/package //').$fileNameWithoutExt"
     },
