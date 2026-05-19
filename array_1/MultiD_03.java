@@ -20,10 +20,7 @@ public class MultiD_03 {
         System.out.println("Element at Row 0, Column 2: " + staticMatrix[0][2]); // Output: 3
         System.out.println("Element at Row 1, Column 1: " + staticMatrix[1][1]); // Output: 5
 
-
-        // ==========================================
-        // B. DYNAMIC INPUT & NESTED LOOPS
-        // ==========================================
+        // DYNAMIC INPUT & NESTED LOOPS
         System.out.println("\n--- 2. Dynamic 2D Array Input & Output ---");
         Scanner sc = new Scanner(System.in);
 
